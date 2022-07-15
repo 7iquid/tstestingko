@@ -1,0 +1,76 @@
+{
+    "data": {
+        "location": {
+            "name": "Manila",
+            "region": "Manila",
+            "country": "Philippines",
+            "lat": 14.6,
+            "lon": 120.98,
+            "tz_id": "Asia/Manila",
+            "localtime_epoch": 1657899665,
+            "localtime": "2022-07-15 23:41"
+        },
+        "current": {
+            "last_updated_epoch": 1657899000,
+            "last_updated": "2022-07-15 23:30",
+            "temp_c": 25,
+            "temp_f": 77,
+            "is_day": 0,
+            "condition": {
+                "text": "Moderate or heavy rain with thunder",
+                "icon": "//cdn.weatherapi.com/weather/64x64/night/389.png",
+                "code": 1276
+            },
+            "wind_mph": 5.6,
+            "wind_kph": 9,
+            "wind_degree": 80,
+            "wind_dir": "E",
+            "pressure_mb": 1010,
+            "pressure_in": 29.83,
+            "precip_mm": 0.5,
+            "precip_in": 0.02,
+            "humidity": 94,
+            "cloud": 75,
+            "feelslike_c": 27.3,
+            "feelslike_f": 81.1,
+            "vis_km": 9,
+            "vis_miles": 5,
+            "uv": 1,
+            "gust_mph": 4.9,
+            "gust_kph": 7.9
+        }
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "content-length": "691",
+        "content-type": "application/json"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {
+            "FormData": null
+        },
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "https://ktc-ph-api.herokuapp.com/?format=json"
+    },
+    "request": {}
+}
